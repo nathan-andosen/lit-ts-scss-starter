@@ -1,0 +1,31 @@
+{
+  "extends": "../../tsconfig.json",
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2017",
+    "module": "commonjs",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "declaration": true,
+    "lib": ["es2016", "es2017", "dom"],
+    // not sure why I can't use typeRoots, but it does not seem to work, so have
+    // to declare each custom typing individually
+    "types": [
+      "node",
+      "./steps"
+    ],
+    "paths": {
+      "@e2e/*": [ "./*" ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "delivery-versions"
+  ],
+  "include": [
+    "./**/*.ts"
+  ]
+}
