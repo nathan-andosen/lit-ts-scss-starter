@@ -1,8 +1,8 @@
 {
-  "name": "lit-ts-scss-codeceptjs-starter",
+  "name": "lit-ts-scss-starter",
   "private": true,
   "version": "1.0.0",
-  "description": "A lit starter web component",
+  "description": "A lit web component starter",
   "main": "compiled/my-element.js",
   "module": "compiled/my-element.js",
   "types": "compiled/my-element.d.ts",

@@ -1,8 +1,3 @@
-# Todo
-
-* Create blank repo and copy this in, name the repo __lit-ts-scss-starter__
-* Test it works inside an Angular app and VanillaJs app
-
 # lit-ts-scss-codeceptjs-starter
 
 Seed app that has a very simple setup using Lit + TS + SCSS + CodeceptJs + Mocha that uses rollup.
