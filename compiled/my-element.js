@@ -1,6 +1,3 @@
-/*
-* lit-ts-scss-starter v1.0.0
-*/
 function A(A,t,i,s){for(var e,n=arguments.length,o=n<3?t:null===s?s=Object.getOwnPropertyDescriptor(t,i):s,r=A.length-1;r>=0;r--)(e=A[r])&&(o=(n<3?e(o):n>3?e(t,i,o):e(t,i))||o);return n>3&&o&&Object.defineProperty(t,i,o),o
 /**
  * @license
